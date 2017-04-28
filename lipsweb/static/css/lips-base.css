@@ -37,6 +37,10 @@ body {
   text-decoration: none;
 }
 
+.sibling {
+  float: right;
+}
+
 .lipsname > h3 {
   font-family: Dosis-Medium;
   font-size: 18px;
@@ -62,5 +66,9 @@ body {
 }
 
 .container{
-  padding-left: 180px;
+}
+
+
+.container > div, .container > img{
+  margin-bottom: 35px;
 }
