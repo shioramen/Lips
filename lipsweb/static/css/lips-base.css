@@ -1,5 +1,66 @@
 body {
   font-family: 'Lora', 'Times New Roman', serif;
   font-size: 20px;
-  color: #333333;
+  background-color: #ffe4e1;
+  width: 100%;
+}
+
+@font-face {
+    font-family: Dosis-Medium;
+    src: url('/static/fonts/DOSIS-MEDIUM.OTF');
+}
+
+.lipsname_block {
+  display: flex;
+  justify-content: center;
+}
+/*These are trying to fix the builtin navigation var*/
+.nav {
+  padding-bottom: 45px
+}
+.nav li {
+  display: inline;
+}
+
+.nav li a {
+  display: inline;
+  font-family: Dosis-Medium;
+  font-size: 13px !important;
+  color: #999999 !important;
+  padding:0;
+  margin: 10px 15px;
+}
+
+.nav > .selected a {
+  padding-bottom: 7px;
+  border-bottom: 1px solid #999933;
+  text-decoration: none;
+}
+
+.lipsname > h3 {
+  font-family: Dosis-Medium;
+  font-size: 18px;
+  color: #999933;
+
+  position: relative;
+  top: -60px;
+  left: 25px;
+}
+
+.submission {
+  background-color: #333333;
+
+}
+
+.submission p {
+  color: #999999;
+  padding-left: 90px;
+  padding-right: 90px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+
+}
+
+.container{
+  padding-left: 180px;
 }
