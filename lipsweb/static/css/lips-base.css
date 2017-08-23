@@ -14,7 +14,7 @@ body {
   display: flex;
   justify-content: center;
 }
-/*These are trying to fix the builtin navigation var*/
+/*These are trying to fix the builtin navigation bar*/
 .nav {
   padding-bottom: 45px
 }
@@ -52,12 +52,12 @@ body {
 }
 
 .submission {
-  background-color: #333333;
+  background-color: white;
 
 }
 
 .submission p {
-  color: #999999;
+  color: #959595;
   padding-left: 90px;
   padding-right: 90px;
   padding-top: 40px;
@@ -69,6 +69,11 @@ body {
 }
 
 
-.container > div, .container > img{
-  margin-bottom: 35px;
+.container > div {
+  display: block;
 }
+
+.container > img{
+  display: block;
+  margin: auto;
+  padding: 25px;

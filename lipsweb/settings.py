@@ -187,7 +187,7 @@ DATABASES = {
         'NAME': 'project.db',
         'PASSWORD': '',
         'PORT': '',
-        'USER': ''
+        'USER': '',
     }
 }
 

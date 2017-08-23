@@ -1,27 +1,29 @@
 {% load staticfiles %}
+
 <div class="submission">
   <div style="position: relative;">
     <img src="{% static 'img/tilttape.png' %}"
     style="
     position: absolute;
-    bottom: 30px;
+    top: 20px;
     left: -50px;
     " >
     <p>
-      {{instance.content}}
+      {{ instance.content }}
     </p>
   </div>
   <div style="position: relative;">
     <img src="{% static 'img/faintkiss.png' %}"
     style="
-    padding:11px;
+    position: relative;
+    padding: 11px;
     float: clear;
     " >
     <img src="{% static 'img/straighttape.png' %}"
     style="
-    position:absolute;
-    left:480px;
-    top:12px;
+    position: absolute;
+    left: 480px;
+    top: 12px;
     " >
   </div>
 </div>
