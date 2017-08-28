@@ -4,27 +4,22 @@
   <div style="position: relative;">
     <img src="{% static 'img/tilttape.png' %}"
     style="
-    position: relative;
+    position: absolute;
     float: right;
     top: 0px;
     left: -50px;
     " >
     <p>
-      {{ instance.content }}
-      {{ instance.upvoteCount }}
+      {{ instance.text }}
     </p>
   </div>
   <div style="position: relative;">
-    <img src="{% static 'img/faintkiss.png' %}"
-    style="
-    position: relative;
-    padding: 11px;
-    float: clear;
-    " >
     <img src="{% static 'img/straighttape.png' %}"
     style="
-    position: relative;
-    float: center;
+    position: absolute;
+    float: right;
+    left: 480px;
+    top: 0px;
     " >
   </div>
 </div>
