@@ -45,29 +45,53 @@ body {
   font-family: Dosis-Medium;
   font-size: 18px;
   color: #999933;
+  text-align: center;
 
   position: relative;
   top: -60px;
-  left: 25px;
+}
+.lipsname > img {
+  display: block;
+  margin: auto;
 }
 
 .submission {
   background-color: white;
-
 }
 
+.submit-form h3,h4{
+  text-align: center;
+  padding: 10px;
+  color: #959595;
+  margin: 0;
+}
 .submission p {
   color: #959595;
   padding-left: 90px;
   padding-right: 90px;
   padding-top: 40px;
   padding-bottom: 40px;
-
 }
 
-.container{
+.lips-about {
+  line-height: 1.5;
+}
+.upvote {
+  box-sizing: border-box;
 }
 
+.upvote span{
+  color: #959595;
+  display: inline-block;
+  font-size: 18px;
+  width: 65%;
+  padding: 20px;
+}
+
+.upvote img {
+  width: 5%;
+  padding: 20px;
+}
 
 .container > div {
   display: block;

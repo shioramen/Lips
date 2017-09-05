@@ -1,0 +1,36 @@
+{% load staticfiles %}
+
+<div class="submission">
+  <div style="position: relative;">
+    <img src="{% static 'img/tilttape.png' %}"
+    style="
+    position: absolute;
+    float: right;
+    top: 0px;
+    left: -50px;
+    " >
+    {{ instance.text }}
+  </div>
+  <div class="submit-form">
+    <h3>Submission Guidelines.</h3>
+      <h4>This is a space for free expression, so we only have a few guidelines...</h4>
+      <p>
+          1. Please do not send nude photographs. If you would like to send nude photographs of yourself to the site, we may consider it, but probably only if we know you :)
+  <br><br>2. Essays dealing with complex social/sexual topics should be well researched and be in pursuit of truth. In other words, your piece should look to explore a topic fully and progress the public discussion, not just reinforce your personal beliefs.
+  <br><br>3. Art, on the other hand, we believe is deeply personal. As such, any artistic expression is allowed. This being said, we reserve the right to use editorial privelage and not publish pieces which we deem inappropriate for legal reasons.
+      <br><hr>
+      <p>To Submit to Lips please email <strong>lipswebzine@gmail.com<strong></p>
+      </p>
+
+
+  </div>
+  <div style="position: relative;">
+    <img src="{% static 'img/straighttape.png' %}"
+    style="
+    position: absolute;
+    float: right;
+    left: 480px;
+    top: 0px;
+    " >
+  </div>
+</div>

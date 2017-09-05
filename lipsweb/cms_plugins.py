@@ -11,7 +11,7 @@ class SubmissionPlugin(CMSPluginBase):
     cache = False
     name = _("Lips Submission!")
 
-    def render(self, context, instance, placeholder):
+    def render(self,context,instance,placeholder):
         context = super(SubmissionPlugin, self).render(context, instance, placeholder)
         return context
 
@@ -26,5 +26,18 @@ class LipsPlugin(CMSPluginBase):
         context = super(LipsPlugin, self).render(context, instance, placeholder)
         return context
 
+
+class SubmitFormPlugin(CMSPluginBase):
+    model = AboutLips
+    render_template = "submitForm_plugin.html"
+    cache = False
+    name = _("SubmitForm Info")
+
+    def render(self,context,instance,placeholder):
+        context = super(SubmitFormPlugin, self).render(context, instance, placeholder)
+        return context
+
+
 plugin_pool.register_plugin(SubmissionPlugin)
 plugin_pool.register_plugin(LipsPlugin)
+plugin_pool.register_plugin(SubmitFormPlugin)

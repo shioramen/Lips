@@ -8,10 +8,10 @@ class Submission(CMSPlugin):
     upvoteCount = models.PositiveIntegerField(default=0)
 
     def countSubmission(self):
-        return len(self.content)
+        return count(self.content)
 
     def countUpvote(self):
-        return len(self.upvoteCount)
+        return self.upvoteCount
 
 
 class AboutLips(CMSPlugin):

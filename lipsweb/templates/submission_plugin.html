@@ -11,20 +11,21 @@
     " >
     <p>
       {{ instance.content }}
-      {{ instance.upvoteCount }}
     </p>
+
   </div>
-  <div style="position: relative;">
-    <img src="{% static 'img/faintkiss.png' %}"
-    style="
-    position: relative;
-    padding: 11px;
-    float: clear;
-    " >
-    <img src="{% static 'img/straighttape.png' %}"
-    style="
-    position: relative;
-    float: center;
-    " >
+  <div class="upvote" style="position: relative;">
+      <img src="{% static 'img/faintkiss.png' %}"
+      style="
+      position: relative;
+      padding: 11px;
+      float: clear;
+      " >
+      <span aria-hidden="true" id="upvote">{{ instance.upvoteCount }}</span>
   </div>
+  <img src="{% static 'img/straighttape.png' %}"
+  style="
+  position: relative;
+  float: center;
+  " >
 </div>
